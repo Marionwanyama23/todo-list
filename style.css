@@ -32,3 +32,32 @@
     width: 30px;
     margin-left: 6px;
 }
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(233, 227, 227);
+    padding-left: 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    padding: 16px 50px;
+    border: none;
+    outline: none;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
